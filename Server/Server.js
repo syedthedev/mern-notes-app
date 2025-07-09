@@ -7,7 +7,7 @@ import userRoute from './Routes/userRoute.js';
 
 dotenv.config();
 const PORT = process.env.PORT;
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['http://localhost:5173','https://mern-notes-app-frontend-pink.vercel.app'];
 
 // App
 const app = express();
