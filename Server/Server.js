@@ -7,7 +7,7 @@ import userRoute from './Routes/userRoute.js';
 
 dotenv.config();
 const PORT = process.env.PORT;
-const allowedOrigins = ['http://localhost:5173','https://mern-notes-app-frontend-pink.vercel.app'];
+const allowedOrigins = ['https://mern-notes-app-frontend-pink.vercel.app','http://localhost:5173'];
 
 // App
 const app = express();
@@ -28,6 +28,10 @@ app.use(express.urlencoded({ extended : false}));
 app.use(cookireParser());
 
 // Routes
+app.get('/',(req,res) => {
+   res.send("API Working");
+});
+
 app.use('/api/user',userRoute);
 
 app.listen(PORT,() => console.log(`Server is running on http://localhost:${PORT}`));
