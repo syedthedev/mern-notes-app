@@ -2,9 +2,9 @@
 
 A fully functional **Note-Taking Web Application** built using the **MERN Stack**, with user authentication, add/edit/delete/search notes, and a responsive UI.
 
-🌐 **Live Preview:**  
+**Live Preview:**  
 
-[Visit Live App](https://mern-notes-app-frontend-pink.vercel.app)
+🌐 [Visit Live App](https://mern-notes-app-frontend-pink.vercel.app)
 
 ---
 
